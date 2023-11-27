@@ -61,7 +61,7 @@ namespace XadrezConsole
             for (int i=0; i<tab.linhas;  i++) 
             {
                 Console.Write(8 - i + " ");
-                for (int j=0; j < tab.colunas; j++) {  
+                for (int j=0; j<tab.colunas; j++) {  
                     imprimirPeca(tab.peca(i, j));                   
                 }
                 Console.WriteLine();
@@ -114,7 +114,7 @@ namespace XadrezConsole
             { 
                 if (peca.cor == Cor.Branca)
                 {
-                Console.WriteLine(peca);
+                Console.Write(peca);
                 }
             
             else

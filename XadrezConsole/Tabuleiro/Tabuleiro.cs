@@ -18,16 +18,17 @@
             return pecas[linha, colunas];
         }
 
+        public Peca peca(Posicao pos)
+        {
+            return pecas[pos.linha, pos.coluna];
+        }
+
         public bool existePeca(Posicao pos)
         {
             validarPosicao(pos);
             return peca(pos) != null;
         }
 
-        public Peca peca(Posicao pos)
-        {
-            return pecas[pos.linha, pos.coluna];
-        }
 
         public void colocarPeca(Peca p, Posicao pos)
         {

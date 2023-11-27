@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 using tabuleiro;
 using xadrez;
 
 namespace XadrezConsole
 {
-    class XadrezConsole
+    class Program
     {
         static void Main(string[] args)
         {
